@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: phpdaemon
+# Cookbook Name:: chef-phpdaemon
 # Recipe:: php_runkit
 #
 # Copyright 2012, Fedotov Daniil

@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: phpdaemon
+# Cookbook Name:: chef-phpdaemon
 # Recipe:: default
 #
 # Copyright 2013, YOUR_COMPANY_NAME
@@ -29,7 +29,7 @@ php_pear 'proctitle' do
   action :install
 end
 
-include_recipe 'phpdaemon::runkit'
+include_recipe 'chef-phpdaemon::runkit'
 
 include_recipe 'git'
 
