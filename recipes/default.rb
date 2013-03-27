@@ -7,6 +7,9 @@
 # All rights reserved - Do Not Redistribute
 #
 
+include_recipe 'apt'
+include_recipe 'chef-php54'
+include_recipe 'php'
 include_recipe 'chef-libevent'
 include_recipe 'openssl'
 
