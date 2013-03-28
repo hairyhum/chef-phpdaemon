@@ -6,6 +6,7 @@ description      'Installs/Configures phpdaemon'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 recipe           'runkit', "Installs runkit php extension"
+supports         'ubuntu'
 
 depends 'apt'
 depends 'chef-php54'
